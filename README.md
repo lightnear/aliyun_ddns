@@ -21,9 +21,8 @@ pip install aliyun-python-sdk-core-v3 aliyun-python-sdk-alidns requests
 ## 2 aliyun_ddns
 
 ```shell
-mkdir -p /opt/ddns
-git clone https://github.com/lightnear/aliyun_ddns.git
-cp config_template.json config.json
+git clone https://github.com/lightnear/aliyun_ddns.git /opt/ddns
+cp /opt/ddns/config_template.json /opt/ddns/config.json
 # 修改config.json的内容
 ```
 
